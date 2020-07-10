@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title> Music Player </title>
+	
+	<meta charset="utf-8">
+
+	<meta name = "viewport" content="width = device-width">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/8c099e1e75.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+	<!-- navigation bar -->
+
+<nav>
+		<div class = "header-container">
+
+			<!-- dropdown emnu for smaller screen -->
+
+			<div class = "dropdown-menu">
+
+				<div class = "bars">
+					<i class="fas fa-bars"></i>
+				</div>
+
+				<div class = "dropdown-list">
+					<ul class = "no-list-style">
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="queue.html">Queue</a>
+						</li>
+						<li>
+							<a href="#">Favourites</a>
+						</li>
+						<li>
+							<a href="#">Notifications</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+
+			<div class = "left-side">
+
+				<div id = "music-icon-img">
+					<a href="index.html"><img src = "images/music-icon.jpg"></a>
+				</div>
+				<div id = "app-name"><a href="index.html"> music <br> Studio</a></div>
+
+				<!-- clicking on app logo will take back to main page -->
+								
+				<div id = "favourites"> 
+					<a href="#">Favourites</a> 
+				</div>
+
+			</div>
+
+			<div class = "right-side">
+
+					<div id = "search">
+					<input class = "search-btn" type="text" style="font-family: FontAwesome;" name="search" placeholder="&#xf002  Search">
+					</div>
+
+					<div id = "bell-icon">
+						<i class="fas fa-bell"></i>
+					</div>
+
+					<div id = "profile-photo">
+						<img src="images/profile.jpg">
+					</div>
+
+			</div>	
+
+		</div>	
+	</nav>
+
+	<main>
+
+		<!-- main divided into main-col and aside -->
+		
+		<div class = "main-col">
+			
+			<!-- Carousel -->
+
+			<div class = "carousel">
+				
+				<div class = "side-image">
+					<img src="images/carousel/beach.jpg">
+				</div> 
+
+				<div class = "side-image">
+					<img src="images/carousel/sunset.jpg">
+				</div>
+
+				<div class = "on-top-img">
+					<img src="images/carousel/top.jpg">
+				</div>
+
+			</div>
+
+			<!-- Latest Release -->
+
+			<section class = "latest-release">
+				<h3 class = "margin-top-20px heading" >Latest Release</h3>
+
+				<div class = "boxes">
+					
+					<div class = "box">
+						<div class = "lr-image">
+							<img src="images/artists/passenger.jpg">
+						</div>
+						<div class = "lr-details">
+							Let Her Go <br>
+							20 may,2020
+						</div>
+						<div class = "lr-add-details">
+							<i class="fas fa-ellipsis-h"></i> <br> 4:44
+						</div>
+					</div>
+
+					<div class = "box">
+						<div class = "lr-image">
+							<img src="images/artists/passenger.jpg">
+						</div>
+						<div class = "lr-details">
+							Let Her Go <br>
+							20 may,2020
+						</div>
+						<div class = "lr-add-details">
+							<i class="fas fa-ellipsis-h"></i> <br> 4:44
+						</div>
+					</div>
+
+					<div class = "box hidden">
+						<div class = "lr-image">
+							<img src="images/artists/passenger.jpg">
+						</div>
+						<div class = "lr-details">
+							Let Her Go <br>
+							20 may,2020
+						</div>
+						<div class = "lr-add-details">
+							<i class="fas fa-ellipsis-h"></i> <br> 4:44
+						</div>
+					</div>
+
+					<div class = "box hidden">
+						<div class = "lr-image">
+							<img src="images/artists/passenger.jpg">
+						</div>
+						<div class = "lr-details">
+							Let Her Go <br>
+							20 may,2020
+						</div>
+						<div class = "lr-add-details">
+							<i class="fas fa-ellipsis-h"></i> <br> 4:44
+						</div>
+					</div>
+
+				</div>
+
+			</section>
+
+			<!-- Popular Artist -->
+
+			<section class = "popular-artist">
+				<h3 class = "margin-top-20px heading" >Popular Artists</h3>
+
+				<div class = "boxes">				
+					<div class = "circle-box">
+						<a href="coldplay.html"><img src="images/artists/coldplay.jpg"></a>
+						<div class = "artist-name">Coldplay</div>
+					</div>
+					<div class = "circle-box">
+						<a href="coldplay.html"><img src="images/artists/coldplay.jpg"></a>
+						<div class = "artist-name">Coldplay</div>
+					</div>
+					<div class = "circle-box">
+						<a href="coldplay.html"><img src="images/artists/coldplay.jpg"></a>
+						<div class = "artist-name">Coldplay</div>
+					</div>
+					<div class = "circle-box hidden">
+						<a href="coldplay.html"><img src="images/artists/coldplay.jpg"></a>
+						<div class = "artist-name">Coldplay</div>
+					</div>
+					<div class = "circle-box hidden">
+						<a href="coldplay.html"><img src="images/artists/coldplay.jpg"></a>
+						<div class = "artist-name">Coldplay</div>
+					</div>
+					<div class = "circle-box hidden">
+						<a href="coldplay.html"><img src="images/artists/coldplay.jpg"></a>
+						<div class = "artist-name">Coldplay</div>
+					</div>
+					<div class = "circle-box hidden">
+						<a href="coldplay.html"><img src="images/artists/coldplay.jpg"></a>
+						<div class = "artist-name">Coldplay</div>
+					</div>
+				</div>
+
+			</section>
+
+			<!-- Genre -->
+
+			<section class = "genre">
+				
+				<div class = "boxes">
+					<div class = "square-box">
+						<img src="images/genre/genre.jpg">
+					</div>
+					<div class = "circle-box low-opacity">
+						<img src="images/genre/love.jpg">
+						<div class = "genre-type">
+							Love
+						</div>
+					</div>
+					<div class = "circle-box low-opacity">
+						<img src="images/genre/retro.jpg">
+						<div class = "genre-type">
+							Retro
+						</div>
+					</div>
+					<div class = "circle-box low-opacity">
+						<img src="images/genre/love.jpg">
+						<div class = "genre-type">
+							Calm
+						</div>
+					</div>
+					<div class = "circle-box low-opacity hidden">
+						<img src="images/genre/rock.jpg">
+						<div class = "genre-type">
+							Rock
+						</div>
+					</div>
+					<div class = "circle-box low-opacity hidden">
+						<img src="images/genre/love.jpg">
+						<div class = "genre-type">
+							Pop
+						</div>
+					</div>
+					<div class = "circle-box low-opacity hidden">
+						<img src="images/genre/love.jpg">
+						<div class = "genre-type">
+							Chill
+						</div>
+					</div>
+					<div class = "circle-box low-opacity hidden">
+						<img src="images/genre/love.jpg">
+						<div class = "genre-type">
+							Workout
+						</div>
+					</div>
+				</div>
+
+			</section>
+
+			<!-- trends -->
+
+			<section class = "trends low-opacity">
+				
+				<div class = "boxes">
+
+					<div class = "square-box">
+						<img src="images/trends/rock.jpg">
+						<div class = "trends-type">rock</div>
+					</div>
+					<div class = "square-box">
+						<img src="images/trends/rock.jpg">
+						<div class = "trends-type">Electronic</div>
+					</div>
+					<div class = "square-box">
+						<img src="images/trends/rock.jpg">
+						<div class = "trends-type">Road Trip</div>
+					</div>
+				</div>	
+
+			</section>
+
+			<!-- Latest English -->
+
+			<section class = "latest-english">
+				<h3 class = "margin-top-20px heading" >Latest English</h3>
+
+				<div class = "boxes">				
+					<div class = "square-box">
+						<img src="images/songs/memories.jpg">
+						<div class = "artist-name">
+							Memories <br>4:44	
+						</div>
+					</div>	
+					<div class = "square-box">
+						<img src="images/songs/memories.jpg">
+						<div class = "artist-name">
+							Memories <br>4:44	
+						</div>
+					</div>
+					<div class = "square-box">
+						<img src="images/songs/memories.jpg">
+						<div class = "artist-name">
+							Memories<br>4:44
+						</div>
+					</div>
+					<div class = "square-box hidden">
+						<img src="images/songs/memories.jpg">
+						<div class = "artist-name">
+							Memories <br>4:44
+						</div>
+					</div>
+					<div class = "square-box hidden">
+						<img src="images/songs/memories.jpg">
+						<div class = "artist-name">
+							Memories <br>4:44
+						</div>
+					</div>
+					<div class = "square-box hidden">
+						<img src="images/songs/memories.jpg">
+						<div class = "artist-name">
+							Memories <br>4:44
+						</div>
+					</div>
+					<div class = "square-box hidden">
+						<img src="images/songs/memories.jpg">
+						<div class = "artist-name">
+							Memories <br>4:44	
+						</div>
+					</div>
+				</div>
+
+				<!-- Latest Hindi -->
+
+			</section>
+
+			<section class = "latest-hindi">
+				
+				<h3 class = "margin-top-20px heading" >Latest Hindi</h3>
+
+				<div class = "boxes">				
+					<div class = "square-box">
+						<img src="images/songs/wishlist.jpg">
+						<div class = "artist-name">
+							Wishlist <br>4:44	
+						</div>
+					</div>	
+					<div class = "square-box">
+						<img src="images/songs/wishlist.jpg">
+						<div class = "artist-name">
+							Wishlist <br>4:44	
+						</div>
+					</div>	
+					<div class = "square-box">
+						<img src="images/songs/wishlist.jpg">
+						<div class = "artist-name">
+							Wishlist <br>4:44	
+						</div>
+					</div>	
+					<div class = "square-box hidden">
+						<img src="images/songs/wishlist.jpg">
+						<div class = "artist-name">
+							Wishlist <br>4:44	
+						</div>
+					</div>	
+					<div class = "square-box hidden">
+						<img src="images/songs/wishlist.jpg">
+						<div class = "artist-name">
+							Wishlist <br>4:44	
+						</div>
+					</div>	
+					<div class = "square-box hidden">
+						<img src="images/songs/wishlist.jpg">
+						<div class = "artist-name">
+							Wishlist <br>4:44	
+						</div>
+					</div>	
+					<div class = "square-box hidden">
+						<img src="images/songs/wishlist.jpg">
+						<div class = "artist-name">
+							Wishlist <br>4:44	
+						</div>
+					</div>
+				</div>
+
+			</section>
+
+		</div>
+
+		<!-- aside queue section -->
+
+		<aside class = "queuebar">
+			
+			<div class = "queue">
+				<h1 class = "queue-title">
+					Queue
+				</h1>
+
+				<div class = "queue-dropdown">
+					
+					<div class = "dropdown-title">
+
+						<div class = "rem-size1">Queue <i class="fas fa-chevron-circle-down"></i></div>
+
+						<div class = "dropdown-list-queue">
+							<ul class = "no-list-style">
+								<li>PlayLists</li>
+								<li>Favourite</li>
+							</ul>
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class = "queue-boxes">
+					<div class = "queue-box">
+						<div class = "queue-images">
+							<img src="images/templates/believer.jpg">
+						</div>
+						<div class = "queue-song-name">
+							Believer
+							<br><span class = "small-size">Imagine Dragons</span>
+						</div>
+						<div class = "queue-song-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					 <div class = "queue-box">
+						<div class = "queue-images">
+							<img src="images/templates/believer.jpg">
+						</div>
+						<div class = "queue-song-name">
+							Believer
+							<br><span class = "small-size">Imagine Dragons</span>
+						</div>
+						<div class = "queue-song-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div class = "queue-box">
+						<div class = "queue-images">
+							<img src="images/templates/believer.jpg">
+						</div>
+						<div class = "queue-song-name">
+							Believer
+							<br><span class = "small-size">Imagine Dragons</span>
+						</div>
+						<div class = "queue-song-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div class = "queue-box">
+						<div class = "queue-images">
+							<img src="images/templates/believer.jpg">
+						</div>
+						<div class = "queue-song-name">
+							Believer
+							<br><span class = "small-size">Imagine Dragons</span>
+						</div>
+						<div class = "queue-song-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div class = "queue-box hidden">
+						<div class = "queue-images">
+							<img src="images/templates/believer.jpg">
+						</div>
+						<div class = "queue-song-name">
+							Believer
+							<br><span class = "small-size">Imagine Dragons</span>
+						</div>
+						<div class = "queue-song-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div class = "queue-box hidden">
+						<div class = "queue-images">
+							<img src="images/templates/believer.jpg">
+						</div>
+						<div class = "queue-song-name">
+							Believer
+							<br><span class = "small-size">Imagine Dragons</span>
+						</div>
+						<div class = "queue-song-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div class = "queue-box hidden">
+						<div class = "queue-images">
+							<img src="images/templates/believer.jpg">
+						</div>
+						<div class = "queue-song-name">
+							Believer
+							<br><span class = "small-size">Imagine Dragons</span>
+						</div>
+						<div class = "queue-song-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>	
+			</div>
+
+		</aside>	
+
+	</main>
+
+	<!-- Footer -->
+
+	<footer id = "player">
+		
+		<div class = "player-content">
+
+			<div class = "curr-song">
+				<div class = "curr-song-img">
+					<img src="images/songs/memories.jpg">
+				</div>
+				<div class = "curr-song-details">
+					<div class = "hide-overflow">Memories by Maroon 5</div>
+					<br><span class="small-size">Maroon 5</span>
+				</div>
+				<div class = "hide-at-768px">
+					<i class="far fa-heart"></i>
+				</div>
+				<div class = "hide-at-768px">
+					<i class="fas fa-ban"></i>
+				</div>
+			</div>
+
+			<div class = "main-player">
+				
+				<div class = "audio-controls">
+					<div><i class="fas fa-random"></i></div>
+					<div class = "increase-i-size"><i class="fas fa-caret-left"></i></div>
+					<div class = "increase-i-size"><i class="far fa-pause-circle"></i></div>
+					<div class = "increase-i-size"><i class="fas fa-caret-right"></i></div>
+					<div><i class="fas fa-redo-alt"></i></div>
+				</div>
+
+				<div class = "song-progress">
+					<div class = "song-bar">
+						<div class = "bar-progress"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class = "song-add-details">
+					
+				<div class = "hide-at-768px"><i class="fas fa-stream"></i></div>
+				<div><i class="fas fa-volume-up"></i></div>
+
+				<div class = "sound-progress">   
+					<!-- this is for sound bar basically using properties ofsong bar -->
+					<div class = "sound-bar">
+						<div class = "sound-bar-progress"></div>
+					</div>
+				</div>
+
+				<div class = "hide-at-768px"><i class="fas fa-expand-alt"></i></div>
+			</div>
+
+		</div>
+
+	</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Song Queue</title>
+
+	<meta name = "viewport" content="width = device-width">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/8c099e1e75.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+	<!-- i made a new queue page for small screen size devices -->
+
+	<nav>
+		<div class = "header-container">
+
+			<div class = "dropdown-menu">
+
+				<div class = "bars">
+					<i class="fas fa-bars"></i>
+				</div>
+
+				<div class = "dropdown-list">
+					<ul class = "no-list-style">
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="queue.html">Queue</a>
+						</li>
+						<li>
+							<a href="#">Favourites</a>
+						</li>
+						<li>
+							<a href="#">Notifications</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+
+			<div class = "left-side">
+
+				<div id = "music-icon-img">
+					<a href="index.html"><img src = "images/music-icon.jpg"></a>
+				</div>
+				<div id = "app-name"><a href="index.html">music <br> Studio</a></div>
+
+				<!-- clicking on app logo will take back to main page -->
+				
+				<div id = "favourites"> 
+					<a href="#">Favourites</a> 
+				</div>
+
+			</div>
+
+			<div class = "right-side">
+
+					<div id = "search">
+					<input class = "search-btn" type="text" style="font-family: FontAwesome;" name="search" placeholder="&#xf002  Search">
+					</div>
+
+					<div id = "bell-icon">
+						<i class="fas fa-bell"></i>
+					</div>
+
+					<div id = "profile-photo">
+						<img src="images/profile.jpg">
+					</div>
+
+			</div>	
+
+		</div>	
+	</nav>
+
+	<aside class = "queuebar-next-page full-queue">
+			
+			<div class = "queue">
+
+				<h1 class = "queue-title">
+					Queue
+				</h1>
+
+				<div class = "queue-dropdown">
+					
+					<div class = "dropdown-title">
+
+						<div class = "rem-size1">Queue <i class="fas fa-chevron-circle-down"></i></div>
+
+						<div class = "dropdown-list-queue">
+							<ul class = "no-list-style">
+								<li>PlayLists</li>
+								<li>Favourite</li>
+							</ul>
+						</div>
+
+					</div>
+
+				</div>
+				
+				<div class = "queue-boxes">
+					<div class = "queue-box">
+						<div class = "queue-images">
+							<img src="images/templates/believer.jpg">
+						</div>
+						<div class = "queue-song-name">
+							Believer
+							<br><span class = "small-size">Imagine Dragons</span>
+						</div>
+						<div class = "queue-song-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					 <div class = "queue-box">
+						<div class = "queue-images">
+							<img src="images/templates/believer.jpg">
+						</div>
+						<div class = "queue-song-name">
+							Believer
+							<br><span class = "small-size">Imagine Dragons</span>
+						</div>
+						<div class = "queue-song-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div class = "queue-box">
+						<div class = "queue-images">
+							<img src="images/templates/believer.jpg">
+						</div>
+						<div class = "queue-song-name">
+							Believer
+							<br><span class = "small-size">Imagine Dragons</span>
+						</div>
+						<div class = "queue-song-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div class = "queue-box">
+						<div class = "queue-images">
+							<img src="images/templates/believer.jpg">
+						</div>
+						<div class = "queue-song-name">
+							Believer
+							<br><span class = "small-size">Imagine Dragons</span>
+						</div>
+						<div class = "queue-song-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div class = "queue-box">
+						<div class = "queue-images">
+							<img src="images/templates/believer.jpg">
+						</div>
+						<div class = "queue-song-name">
+							Believer
+							<br><span class = "small-size">Imagine Dragons</span>
+						</div>
+						<div class = "queue-song-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div class = "queue-box">
+						<div class = "queue-images">
+							<img src="images/templates/believer.jpg">
+						</div>
+						<div class = "queue-song-name">
+							Believer
+							<br><span class = "small-size">Imagine Dragons</span>
+						</div>
+						<div class = "queue-song-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div class = "queue-box">
+						<div class = "queue-images">
+							<img src="images/templates/believer.jpg">
+						</div>
+						<div class = "queue-song-name">
+							Believer
+							<br><span class = "small-size">Imagine Dragons</span>
+						</div>
+						<div class = "queue-song-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>	
+			</div>
+
+		</aside>
+
+		<!-- Footer -->
+
+	<footer id = "player">
+		
+		<div class = "player-content">
+
+			<div class = "curr-song">
+				<div class = "curr-song-img">
+					<img src="images/songs/memories.jpg">
+				</div>
+				<div class = "curr-song-details">
+					<div class = "hide-overflow">Memories by Maroon 5</div>
+					<br><span class="small-size">Maroon 5</span>
+				</div>
+				<div class = "hide-at-768px">
+					<i class="far fa-heart"></i>
+				</div>
+				<div class = "hide-at-768px">
+					<i class="fas fa-ban"></i>
+				</div>
+			</div>
+
+			<div class = "main-player">
+				
+				<div class = "audio-controls">
+					<div><i class="fas fa-random"></i></div>
+					<div class = "increase-i-size"><i class="fas fa-caret-left"></i></div>
+					<div class = "increase-i-size"><i class="far fa-pause-circle"></i></div>
+					<div class = "increase-i-size"><i class="fas fa-caret-right"></i></div>
+					<div><i class="fas fa-redo-alt"></i></div>
+				</div>
+
+				<div class = "song-progress">
+					<div class = "song-bar">
+						<div class = "bar-progress"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class = "song-add-details">
+					
+				<div class = "hide-at-768px"><i class="fas fa-stream"></i></div>
+				<div><i class="fas fa-volume-up"></i></div>
+
+				<div class = "sound-progress">   
+					<!-- this is for sound bar basically using properties ofsong bar -->
+					<div class = "sound-bar">
+						<div class = "sound-bar-progress"></div>
+					</div>
+				</div>
+
+				<div class = "hide-at-768px"><i class="fas fa-expand-alt"></i></div>
+			</div>
+
+		</div>
+
+	</footer>
+
+</body>
+</html>
